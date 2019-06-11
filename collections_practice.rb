@@ -63,7 +63,14 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  new array = array.collect do |word|
+    if word != array[1]
+      word = array[i] << "s"
+      new_array << word
+    end 
+  end 
+  new_array
+end
   
   
   
