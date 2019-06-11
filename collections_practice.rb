@@ -21,5 +21,6 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  third_element = array.
+  third_element = array.delete_at(2)
+  
 end
