@@ -64,28 +64,15 @@ end
 
 def add_s(array)
   new_array = []
-  new_array = array.each_with_index
-  
-  
-  
-  
-  
-  new_array = []
-  array.each do |word|
-    if word != array[1]
-      word_s = word << "s"
-      new_array << word_s
+  new_array = array.each_with_index.collect do |word, index|
+    if index != 1 
+      word << "s"
+      word
     else 
-      new_array << word
-    end 
-  end 
-  new_array
-  #binding.pry
+      word
+    end
+  end
 end
   
   
   
-  
-  
-  
- 
