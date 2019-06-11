@@ -33,6 +33,7 @@ def reverse_array(array)
     new_array << array.pop
     i+=1 
   end
+  new_array
 end
 
 
