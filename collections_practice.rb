@@ -63,6 +63,13 @@ def sum_array(array)
 end
 
 def add_s(array)
+  
+  
+  
+  
+  
+  
+  
   new_array = []
   word = array[0] << "s"
   new_array << word
