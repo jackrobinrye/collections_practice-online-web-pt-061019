@@ -70,7 +70,7 @@ def add_s(array)
     end 
   end 
   new_array
-  binding.pry
+  #binding.pry
 end
   
   
