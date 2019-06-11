@@ -68,6 +68,8 @@ def add_s(array)
     if word != array[1]
       word_s = word << "s"
       new_array << word_s
+    else 
+      new_array << word
     end 
   end 
   new_array
