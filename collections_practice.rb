@@ -64,10 +64,13 @@ end
 
 def add_s(array)
   i = 0 
+  new_array = []
   while i < array.length && i != 1 do
-    array[i] << "s"
+    word = array[i] << "s"
+    new_array << word
     i += 1 
   end
+  new_array
 end
 
 
