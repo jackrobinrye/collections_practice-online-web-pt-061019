@@ -52,5 +52,6 @@ def find_a(array)
     if word.starts_with?("a")
       a_words_array << word
   end
+  a_words_array
 end
 
