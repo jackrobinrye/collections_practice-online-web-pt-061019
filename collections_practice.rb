@@ -65,7 +65,8 @@ end
 def add_s(array)
   i = 0 
   while i < array.length && i != 1 do
-    array[i]
+    array[i] << "s"
+    i += 1 
   end
 end
 
