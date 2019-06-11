@@ -77,17 +77,4 @@ end
   
   
   
-  new_array = []
-  word = array[0] << "s"
-  new_array << word
-  new_array << array[1]
-  i = 2
-  while i < array.length && i != 1 do
-    word = array[i] << "s"
-    new_array << word
-    i += 1 
-  end
-  new_array
-end
-
-
+ 
