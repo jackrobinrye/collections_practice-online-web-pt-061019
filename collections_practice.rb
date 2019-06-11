@@ -56,3 +56,7 @@ def find_a(array)
   a_words_array
 end
 
+def sum_array(array)
+  sum = 0 
+  
+end
