@@ -38,9 +38,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  a = "Hello there"
-  a[0] = "h"
-  binding.pry
+  
 end
 
 
