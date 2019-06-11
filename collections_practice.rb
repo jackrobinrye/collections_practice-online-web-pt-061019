@@ -22,5 +22,6 @@ end
 
 def swap_elements(array)
   third_element = array.delete_at(2)
-  
+  array.insert(1, third_element)
+  array
 end
