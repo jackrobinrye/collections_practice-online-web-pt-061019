@@ -61,3 +61,12 @@ def sum_array(array)
     sum + number
   end
 end
+
+def add_s(array)
+  i = 0 
+  while i < array.length && i != 1 do
+    array[i]
+  end
+end
+
+
