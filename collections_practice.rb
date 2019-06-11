@@ -51,6 +51,7 @@ def find_a(array)
   array.each do |word|
     if word.starts_with?("a")
       a_words_array << word
+    end
   end
   a_words_array
 end
