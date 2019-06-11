@@ -63,10 +63,10 @@ def sum_array(array)
 end
 
 def add_s(array)
+  new_array = []
   word = array[0] << "s"
   new_array << word
   i = 2
-  new_array = []
   while i < array.length && i != 1 do
     word = array[i] << "s"
     new_array << word
